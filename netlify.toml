@@ -9,3 +9,11 @@
 
 [[plugins]]
   package = "@netlify/plugin-forms"
+
+[[plugins.forms]]
+  forms = [
+    {
+      name = "contact"
+      path = "/contact"
+    }
+  ]
